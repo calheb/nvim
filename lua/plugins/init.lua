@@ -1,4 +1,5 @@
 -- lua/plugins/init.lua
+
 -- This file returns all plugin configs or imports them from other files
 return {
   -- UI
@@ -6,6 +7,6 @@ return {
   
   -- Import other plugin modules
   { import = "plugins.markdown" },
-  -- { import = "plugins.editor" },
+  { import = "plugins.lualine" },
   -- { import = "plugins.lsp" },
 }

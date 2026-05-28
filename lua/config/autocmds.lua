@@ -1,1 +1,1 @@
--- autocommands go here
+-- lua/config/autocmds.lua
